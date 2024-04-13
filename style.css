@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding: 15px;
+    background-color: #ccc;
+    border: 5px;
+}
+nav{
+    height: 25px;
+}
+input{
+    height: 100%;
+}
+#notes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+}
